@@ -15,7 +15,7 @@ spring:
         client-id: ${GIT_CLIENT_ID}
         client-secret: ${GIT_CLIENT_SECRET}
       twitter:
-        client-id: asdlfjasldf
+        client-id: asdlfjasldfa
         client-secret: asldfjalsdfj
         redirect-uri: "{baseUrl}/login/oauth2/code/twitter"
         authorization-grant-type: authorization_code
