@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hospital-app
-          image: mahendra310/hospitalmanagement_23:latest   # 🔥 replace with your image
+          image: mahendra310/hospitalmanagement_${BUILD_NUMBER}:latest   # 🔥 replace with your image
           ports:
             - containerPort: 8080
 
